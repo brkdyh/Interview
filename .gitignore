@@ -67,3 +67,8 @@ Upgrade.meta
 Assets/Scenes/Copied
 Copied.meta
 ResTemp
+InterviewTest/obj
+InterviewTest/Library
+InterviewTest/Logs
+InterviewTest/Packages
+InterviewTest/Temp
