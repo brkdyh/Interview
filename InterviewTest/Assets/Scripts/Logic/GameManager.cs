@@ -31,5 +31,6 @@ public class GameManager : MonoSingleton<GameManager>, IMessageSystemHandler
     void handleGameStart(object[] msg_params)
     {
         Debug.Log(msg_params[0] as string);
+        MessageCore.SendMessage("UI_Start", "handleGameStart", "开始游戏！");
     }
 }
