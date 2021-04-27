@@ -25,7 +25,7 @@ public class UI_Start : UIBase
 
     void clickStartGame()
     {
-        CloseSelf();
+        CloseSelf(true);
         MessageCore.SendMessage("GameManager", "handleGameStart", "开始游戏！");
     }
 }

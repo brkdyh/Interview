@@ -18,6 +18,11 @@ public class MonoSingleton<T> : MonoBehaviour
     {
         get
         {
+#if UNITY_EDITOR
+            if (!UnityEditor.EditorApplication.isPlayingOrWillChangePlaymode)
+                return null;
+
+#endif
             if (_singleton != null) return _singleton;
             var go = new GameObject(typeof(T).ToString());
             GameObject.DontDestroyOnLoad(go);
