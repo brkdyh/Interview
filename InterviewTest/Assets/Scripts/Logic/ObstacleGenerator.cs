@@ -8,6 +8,7 @@ public class ObstacleGenerator : MonoBehaviour
 
     void Start()
     {
+        ObstacleTemplate = Resources.Load<GameObject>("Prefabs/Obstacle");
         StartCoroutine(GenerateObstacle());
     }
 

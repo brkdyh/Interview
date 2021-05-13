@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 2073414715279196145}
   - component: {fileID: 2073414715279196144}
   - component: {fileID: 2073414715279196147}
-  - component: {fileID: -5320366750085417398}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -94,16 +93,3 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-5320366750085417398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2073414715279196146}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c07eb145083ce4378bce5c6dd96da701, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FallDownSpeed: 3

@@ -18,6 +18,7 @@ public class UI_Start : UIBase ,IMessageSystemHandler
 
     public void Awake()
     {
+        Btn_StartGame = transform.Find("Button").GetComponent<Button>();
         Btn_StartGame.onClick.AddListener(clickStartGame);
         MessageCore.RegisterHandler(this);
     }

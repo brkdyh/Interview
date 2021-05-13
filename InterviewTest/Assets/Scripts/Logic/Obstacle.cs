@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    public float FallDownSpeed = 1f;
+    public float FallDownSpeed = 3f;
 
     IEnumerator DelayDestory()
     {
